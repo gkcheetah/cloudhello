@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-spring-helloworld-gk
+  route: cf-spring-helloworld-gk
+  path: target\spring-helloworld-cf-1.0.0.jar
+  memory: 1G
+  disk_quota: 1024M
+  instances: 1
